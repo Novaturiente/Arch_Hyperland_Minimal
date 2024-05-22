@@ -1,0 +1,31 @@
+import = ["/home/nova/.config/alacritty/themes/themes/moonlight_ii_vscode.toml"]
+live_config_reload = true
+
+
+[debug]
+highlight_damage = false
+render_timer = false
+
+[env]
+TERM = "alacritty"
+
+[font]
+size = 14.0
+
+[font.normal]
+family = "JetbrainsMonoNerdFont"
+
+[mouse]
+hide_when_typing = false
+
+[selection]
+save_to_clipboard = true
+
+[shell]
+program = "/usr/bin/fish"
+
+[window]
+decorations = "none"
+dynamic_padding = true
+opacity = 0.7
+startup_mode = "Windowed"
