@@ -1,0 +1,15 @@
+git config --global user.name "uname"
+git config --global user.email "email"
+ssh-keygen -t rsa -b 4096 -C "email"
+
+Add the SSH key to your GitHub account. You can find the instructions on GitHub’s documentation1
+
+
+git init
+git add .
+git commit -m "First commit"
+git remote add first https://github.com/YOUR_USERNAME/REPOSITORY_NAME.git
+
+git push -u first master
+
+
