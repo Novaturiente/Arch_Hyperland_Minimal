@@ -1,0 +1,3 @@
+curdir=$pwd
+
+echo $curdir
